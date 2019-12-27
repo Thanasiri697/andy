@@ -1,0 +1,218 @@
+/* <div class="box">
+<!-- <h1>profile</h1>
+<p>Have interested in programing and Game/application depelopment</p> -->
+</div>
+<div class="box">
+<!-- <h1>Skill</h1>
+<p>Java c++ html Javascript</p> -->
+</div>
+<div class="box">
+<!-- <h1>exprerience</h1>
+<p>Graduated at panyaworrakun School </p>
+<p>Senior of Chiang Mai university</p> -->
+ */
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* expand menubar to full width and have it height 40px   */
+.menubar{
+    width: 100%;
+    height: 40px;
+    box-shadow: 0 0 10px #333333;
+}
+
+/* set text Richy to have 0 margin and have 10 px of padding for left space  */
+.menubar h1{
+    margin: 0 0 0 0;
+    padding-left: 10px;
+    float: left;
+}
+/* set text 610610697 to have 0 margin and have 21 px of margin-top for top space  */
+.menubar h2{
+    margin: 0 0 0 0;
+    float: left;
+    margin-top: 21px;
+    font-size: 10px;
+}
+/* make menu go to right of the website */
+.menubar ul.menu{
+    margin-top: 10px;
+    float: right;
+}
+/* make menu stand in line and space them out with padding-right also remove dot of them */
+.menubar ul.menu li{
+    padding-right: 20px;
+    float: left;
+    list-style: none;
+}
+/* remove under line and set text color of them and if mouse contact them it will transfer to hover form */
+.menubar ul.menu li a{
+    text-decoration: none;
+    color: #333333;
+    transition: all 0.3s ease;
+}
+
+.menubar ul.menu li a:hover{
+    border-radius: 20px;
+    border:  2px solid blue;
+    padding: 5px;
+    
+}
+
+.intro{
+    
+    background: url(https://images.wallpaperscraft.com/image/parrot_bird_branch_117471_1280x960.jpg);
+    background-size: cover;
+    height: 450px;
+}
+
+.intro p{
+    padding-left: 10px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: white;
+    text-align: left;
+}
+
+.intro h1{
+    padding-left: 10px;
+    padding-top: 15px;
+    margin: 0px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+
+.container1{
+    /* box-shadow: 0 0 10px blue; */
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.container1 .box{
+    position: relative;
+    width: 370px;
+    height: 270px;
+    background-color:whitesmoke;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+}
+
+.container1 .box p{
+    position: absolute;
+    top: 100px;
+    left: 25px;
+}
+
+.container1 .box .icon1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container1 .box .icon2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container1 .box .icon3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:   whitesmoke;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container1 .box .icon1 h1{
+    position: absolute;
+    left: 120px;
+    top: 100px;
+    transition: 0.5s;
+}
+
+.container1 .box .icon2 h1{
+    position: absolute;
+    left: 145px;
+    top: 100px;
+    transition: 0.5s;
+}
+
+.container1 .box .icon3 h1{
+    position: absolute;
+    left: 70px;
+    top: 100px;
+    transition: 0.5s;
+}
+
+.container1 .box:hover .icon1 h1{
+    position: absolute;
+    left: 120px;
+    top: -15px;
+}
+
+.container1 .box:hover .icon2 h1{
+    position: absolute;
+    left: 145px;
+    top: -15px;
+}
+
+.container1 .box:hover .icon3 h1{
+    position: absolute;
+    left: 70px;
+    top: -15px;
+}
+
+.container1 .box:hover .icon1{
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 20px;
+    border-radius: 100px;
+}
+
+.container1 .box:hover .icon2{
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 20px;
+    border-radius: 100px;
+}
+
+.container1 .box:hover .icon3{
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 20px;
+    border-radius: 100px;
+}
+
